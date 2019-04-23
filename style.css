@@ -1,0 +1,339 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+.header{
+    background: #F7F7F7;
+    height: 39.3em;
+    padding:  150px;     
+}    
+
+    .header-hello{
+        
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 8em;
+        text-align: center;
+        color: #674347;
+    }
+    .header-name{
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 3em;
+        text-align: center;
+        margin-top: -0.5em;
+        color: #E8B8AC;
+    }
+    .button{
+        text-align: center;
+        margin-top: 5em;
+    }
+    .btn-down {
+        background-color: #F7F7F7; /* Blue background */
+        cursor: pointer; /* Mouse pointer on hover */
+        border: none; /* Remove borders */
+        border-radius: 50%;
+        transition: 0.5s;
+        color: #674347;
+        text-align: center;
+      }
+      
+      /* Darker background on mouse-over */
+      .btn-down:hover {
+        border-radius: 50%;
+        background-color: #F7F7F7;
+        transition: 0.5s;
+        color: #E8B8AC;
+    }
+
+
+.about-me{
+    background: #F5DCD7;
+    height: 40em;
+    padding:  5em;
+}   
+
+    .about-me-title-and-info{
+        margin-bottom: 1.5em; 
+    }
+    .about-me-title{
+        font-family: 'Roboto', sans-serif;
+        /* font-size: 3em; */
+        /* text-align: center; */
+        color: #674347;
+        margin-top: 0.5em;
+        
+    }
+    .about-me-name{
+        font-family: 'Abel', sans-serif;
+        /* font-size: 3em; */
+        /* text-align: center; */
+        color: #D34052;
+        /* margin-bottom: 0.5em; */
+        
+    }
+
+    .about-me-info{
+        /* background: #F7F7F7; */
+        height: 8em;
+        
+       
+    }
+    
+    
+
+    .info-birth{
+        background: #F4D94E;
+        height: 8em;
+        padding: 1.4em;
+    }
+
+    .info-birth-content{
+        color: #F7F7F7;
+        /* font-family: 'Abel', sans-serif; */
+        
+    }
+    
+    .info-content-text{
+        color: #F7F7F7;
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.9em;
+        margin-top: 0.5em;
+        
+    }
+    
+    .info-address{
+        background: #F38D9B;
+        height: 8em;
+        padding: 1.4em;
+    }
+    .info-phone{
+        background: #21B8A9;
+        height: 8em;
+        padding: 1.4em;
+    }
+    .info-email{
+        background: #99D45C;
+        height: 8em;
+        padding: 1.4em;
+    }
+
+    .info-collage{
+        background: #9B6B54;
+        height: 8em;
+        padding: 1.4em;
+    }
+    .info-linkedin{
+        background: #ACDCDE;
+        height: 8em;
+        padding: 1.4em;
+    }
+
+
+
+    .about-me-text{
+        /* background: #674347; */
+        height: 15em;
+    }
+
+    .about-me-text-content{
+        /* background: #21B8A9; */
+        height: 5em;
+        /* border: 2px solid #674347; */
+        padding: 0.7em;
+        text-align: center;
+        color: #674347;
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 1.4em;
+       
+
+    }
+
+    .about-me-photo{
+        /* background: #000; */
+        height: 15em;
+        padding: 0;
+        
+        
+    }
+
+    .photo{
+        /* height: 15em;
+        width: 20em; */
+        padding: 0;
+    }
+
+    .about-me-interest{
+        
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        /* height: 3em; */
+        color: #674347;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        
+    }
+    .about-me-interest-content {
+        text-align: center;
+        color: #D34052;
+    }
+
+   
+.portofolio{
+    background: #F7F7F7;
+    height: 40em;
+    padding:  5em;
+}   
+    /* JUDUL PORTOFOLIO */
+    .portofolio-title{
+        /* font-family: 'Handlee', cursive; */
+        font-family: 'Abel', sans-serif;
+        /* font-size: 3em; */
+        /* text-align: center; */
+        color: #674347;
+        margin-bottom: 0.5em;
+        
+    }
+
+    /* CONTAINER PORTOFOLIO CONTENT */
+    .portofolio-content{
+        margin-bottom: 1em;
+    }
+
+    /* KOTAK PORTOFOLIO UNTUK LOGO */
+    .portofolio-logo{
+        background: #21B8A9;
+        height: 12em;
+        text-align: center;
+        padding: 3.5em;
+        color: #F7F7F7;
+        
+    }
+    /* KOTAK PORTOFOLIO UNTUK APP */
+    .portofolio-app{
+        background: #D34052;
+        height: 12em;
+        text-align: center;
+        padding: 3.5em;
+        color: #F7F7F7;
+        
+    }
+
+    /* CONTENT ICON KOTAK PORTOFOLIO */
+    .portofolio-title-content{
+        text-align: center;
+        color: #F7F7F7;
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 1.5em;
+        margin-top: 0.5em;
+    }
+
+    /* ISI PORTOFOLIONYA-GAMBAR*/
+    .content-img{
+        height: 12em;
+        width: 12em;
+        padding: 0em;
+        /* border:1px solid #9B6B54; */
+        transition: 0.5s;
+        
+    }
+    .content-img:hover{
+        padding: 0em;
+        /* border:1px solid #9B6B54; */
+        opacity: 0.7;
+    }
+    .portofolio-app{
+        background: #D34052;
+        height: 12em;
+    }
+  
+.contact-me{
+    background: #F5DCD7;
+    height: 35em;
+    padding:  5em;
+    text-align: center;
+    
+}
+
+.contact-me-title{
+    margin-bottom: 0.5em;
+    color: #674347;
+    font-size: 2em;
+    text-align: center;
+}
+.contact-me-content {
+    /* text-align: center; */
+    color: #F5DCD7;
+    /* background: #F7F7F7; */
+    height: 4em;
+    padding: 0.5em;
+}
+
+.contact-me-content-link {
+    font-size: 1.5em;
+    
+   
+    /* background: #674347; */
+}
+
+.contact-me-content-link a{
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+    color: #D34052;
+    text-decoration: none;
+}
+.contact-me-content-link a:hover{
+    /* font-size: 1.5em; */
+    color: #674347;
+    text-decoration: none;
+}
+
+.form-contact-me{
+    background: #F7F7F7;
+    border-radius: 5px;
+    height: 20em;
+    margin-top: 1em;
+    /* margin-left: 1em; */
+    padding: 2em;
+}
